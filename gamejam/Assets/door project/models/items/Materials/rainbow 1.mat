@@ -311,8 +311,8 @@ Material:
     - _2nd_ShadeColor: {r: 1, g: 1, b: 1, a: 1}
     - _AngelRing_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Ap_RimLightColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseColor: {r: 0.88311225, g: 1, b: 0.6556604, a: 1}
-    - _Color: {r: 0.88311225, g: 1, b: 0.6556604, a: 1}
+    - _BaseColor: {r: 1, g: 0.654902, b: 0.7837246, a: 1}
+    - _Color: {r: 1, g: 0.654902, b: 0.7837246, a: 1}
     - _ColorShift: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0.31132078, g: 0.30365863, b: 0.20999467, a: 1}
     - _Emissive_Color: {r: 0, g: 0.92239404, b: 1, a: 1}

@@ -200,7 +200,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _1st2nd_Shades_Feather: 0.0001
-    - _1st_ShadeColor_Feather: 0.139
+    - _1st_ShadeColor_Feather: 0.615
     - _1st_ShadeColor_Step: 0.777
     - _2nd_ShadeColor_Feather: 0.0001
     - _2nd_ShadeColor_Step: 0
@@ -213,7 +213,7 @@ Material:
     - _Ap_RimLight_Power: 0.1
     - _AutoRenderQueue: 1
     - _BaseColor_Step: 0.777
-    - _BaseShade_Feather: 0.139
+    - _BaseShade_Feather: 0.615
     - _Base_Speed: 0
     - _BlurLevelMatcap: 0
     - _BlurLevelSGM: 0
@@ -285,7 +285,7 @@ Material:
     - _Offset_X_Axis_BLD: -0.05
     - _Offset_Y_Axis_BLD: 0.09
     - _Offset_Z: 0
-    - _Outline_Width: 100
+    - _Outline_Width: 1
     - _Parallax: 0.02
     - _RimLight: 0
     - _RimLight_FeatherOff: 0
