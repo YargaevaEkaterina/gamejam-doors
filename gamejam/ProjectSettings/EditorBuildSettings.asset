@@ -6,12 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/door project/scenes/Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
     path: Assets/door project/scenes/emptyRoom.unity
     guid: 0ae5dbe503805b64abc0dbdb0d8ec629
   - enabled: 1
     path: Assets/door project/scenes/fearRoom.unity
     guid: 39d31d3f7767da54885665a711e4eae8
   - enabled: 1
-    path: Assets/door project/scenes/brideScene.unity
-    guid: ac5f99ed3e4e959418735a2b0fd2bebd
+    path: Assets/door project/scenes/bride scene.unity
+    guid: 22d130d1a20b2b5428320599e1881f3a
+  - enabled: 1
+    path: Assets/door project/scenes/final.unity
+    guid: 8981c3f196f385d4aa4692bec1ae7431
   m_configObjects: {}

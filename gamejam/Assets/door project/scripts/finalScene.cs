@@ -4,20 +4,29 @@ using UnityEngine;
 
 public class finalScene : MonoBehaviour
 {
-    private SceneManagering _sceneManager;
-    private emptyScene _emptyScene;
+    public GameObject flowers_end;
+    public GameObject bad_end;
+    public GameObject grass;
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Tree")
+        if (other.gameObject.tag == "Trees")
         {
-            _emptyScene.SaveTextToPrefs("PlayerIs", "Loh");
-            Debug.Log("Loh!");
-            _sceneManager.GoToScene(1);
+            bad_end.SetActive(true);
+            grass.SetActive(false);
         }
-        if (other.tag == "Flowers")
+        if (other.gameObject.tag == "Flowers")
         {
             Debug.Log("flowers win!");
+            flowers_end.SetActive(true);
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Trees")
+        {
+            bad_end.SetActive(false);
         }
     }
 }

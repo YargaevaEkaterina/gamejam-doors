@@ -8,6 +8,10 @@ TagManager:
   - exit
   - Walls
   - Tree
+  - Flowers
+  - Trees
+  - Loh
+  - jump
   layers:
   - Default
   - TransparentFX

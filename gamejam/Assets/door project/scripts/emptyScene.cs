@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class emptyScene : MonoBehaviour
 {
@@ -10,7 +11,6 @@ public class emptyScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SaveTextToPrefs("PlayersFear", "Страх");
         if(PlayerPrefs.GetString("PlayerIs") == "Loh")
         {
             LohScene.SetActive(true);
@@ -21,9 +21,11 @@ public class emptyScene : MonoBehaviour
         }
     }
 
-    public void SaveTextToPrefs(string key, string Value)
+    void OnTriggerEnter(Collider other)
     {
-        PlayerPrefs.SetString(key, Value);
-        PlayerPrefs.Save();
+        if (other.gameObject.tag == "exit")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }
